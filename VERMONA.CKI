@@ -1,0 +1,30 @@
+{
+	"instrument_data" :
+	{
+		"VERMONA" :
+		{
+			"midi_port" : 1,
+			"midi_chan" : 10,
+			"poly_spread" : "off",
+			"no_xpose" : true,
+			"no_fts" : true,
+			"no_thru" : true,
+			"track_values" :
+			{
+				"slot_1" : { "track_control" : "quant%" }
+			},
+			"row_defs" :
+			{
+				"C 3" : { "label" : "KIK", "always_show" : true },
+				"D#3" : { "label" : "CLP", "always_show" : true },
+				"E 3" : { "label" : "SNR", "always_show" : true },
+				"F 3" : { "label" : "DM2", "always_show" : true },
+				"F#3" : { "label" : "H2C", "always_show" : true },
+				"G#3" : { "label" : "H2O", "always_show" : true },
+				"C 4" : { "label" : "DM1", "always_show" : true },
+				"C#4" : { "label" : "H1C", "always_show" : true },
+				"D#4" : { "label" : "H1O", "always_show" : true },
+				"A#4" : { "label" : "MLT", "always_show" : true }
+		}
+	}
+}
