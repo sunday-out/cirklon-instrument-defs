@@ -1,0 +1,20 @@
+{
+ "instrument_data" :
+ {
+  "TR-303" :
+		{
+			"midi_port" : 2,
+			"midi_chan" : 3,
+			"default_note" : "C 3",
+			"default_patt" : "P3",
+			"poly_spread" : "off",
+			"no_xpose" : true,
+			"no_fts" : true,
+			"track_values" :
+   {
+    "slot_1" : { "track_control" : "pgm" },
+    "slot_2": { "MIDI_CC": 1, "label": "CutOff" }
+   }
+  }
+ }
+}
