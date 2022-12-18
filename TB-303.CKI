@@ -1,7 +1,7 @@
 {
  "instrument_data" :
  {
-  "TR-303" :
+  "TB-303" :
 		{
 			"midi_port" : 2,
 			"midi_chan" : 3,
