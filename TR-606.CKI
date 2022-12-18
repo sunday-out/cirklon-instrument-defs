@@ -1,0 +1,30 @@
+{
+ "instrument_data" :
+ {
+  "TR-606":
+		{
+			"midi_port" : 2,
+			"midi_chan" : 2,
+			"poly_spread" : "off",
+			"no_xpose" : true,
+			"no_fts" : true,
+			"no_thru" : true,
+			"default_patt" : "CK",
+			"track_values" :
+   {
+    "slot_1" : { "track_control" : "pgm" },
+    "slot_2" : { "track_control" : "quant%" }
+   },
+   "row_defs" :
+			{
+				"C 3" : { "label" : "BD", "always_show" : true },
+				"D#3" : { "label" : "SD", "always_show" : true },
+				"E 3" : { "label" : "LT", "always_show" : true },
+				"F 3" : { "label" : "HT", "always_show" : true },
+				"F#3" : { "label" : "CY", "always_show" : true },
+				"G#3" : { "label" : "HHO", "always_show" : true },
+				"C 4" : { "label" : "HHC", "always_show" : true }
+		 }
+  }
+ }
+}
