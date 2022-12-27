@@ -1,0 +1,62 @@
+{
+ "instrument_data" :
+ {
+  "MINITAUR" :
+		{
+			"midi_port" : 2,
+			"midi_chan" : 5,
+			"default_note" : "C 3",
+			"default_patt" : "P3",
+			"poly_spread" : "off",
+			"no_xpose" : true,
+			"no_fts" : true,
+			"track_values" :
+   {
+    "slot_1" : { "track_control" : "pgm" },
+   }
+   "CC_defs" :
+   {
+    "CC_3" : { "label" : "LFORte" },
+    "CC_13" : { "label" : "LFOVCO" },
+    "CC_12" : { "label" : "LFOVCF" },
+    "CC_87" : { "label" : "MIDISy" },
+    "CC_86" : { "label" : "LFODiv" },
+    "CC_82" : { "label" : "LFOTRG" },
+    "CC_85" : { "label" : "ModSrc" },
+    "CC_70" : { "label" : "O1Wave" },
+    "CC_71" : { "label" : "O2Wave" },
+    "CC_17" : { "label" : "O2Freq" },
+    "CC_18" : { "label" : "O2Beat" },
+    "CC_112" : { "label" : "O2Mod" },
+    "CC_80" : { "label" : "HardSy" },
+    "CC_81" : { "label" : "NoteSy" },
+    "CC_5" : { "label" : "GldRt" },
+    "CC_65" : { "label" : "Glide" },
+    "CC_92" : { "label" : "GldTyp" },
+    "CC_83" : { "label" : "Legato" },
+    "CC_15" : { "label" : "O1Mix" },
+    "CC_16" : { "label" : "O2Mix" },
+    "CC_27" : { "label" : "ExtMix" },
+    "CC_19" : { "label" : "Cutoff" },
+    "CC_21" : { "label" : "Res" },
+    "CC_22" : { "label" : "VCFEg" },
+    "CC_20" : { "label" : "VCFKey" },
+    "CC_89" : { "label" : "VCFVel" },
+    "CC_23" : { "label" : "VCFAtk" },
+    "CC_24" : { "label" : "VCFDec" },
+    "CC_25" : { "label" : "VCFSus" },
+    "CC_26" : { "label" : "VCFRel" },
+    "CC_28" : { "label" : "VCAAtk" },
+    "CC_29" : { "label" : "VCADec" },
+    "CC_30" : { "label" : "VCASus" },
+    "CC_31" : { "label" : "VCARel" },
+    "CC_72" : { "label" : "Rel" },
+    "CC_73" : { "label" : "TrgMde" },
+    "CC_7" : { "label" : "Volume" },
+    "CC_90" : { "label" : "VCAVel" },
+    "CC_91" : { "label" : "KeyPri" },
+    "CC_107" : { "label" : "BendUp" },
+    "CC_108" : { "label" : "BendDw" },
+   }
+ }
+}
